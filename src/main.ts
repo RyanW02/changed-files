@@ -287,6 +287,7 @@ const getChangedFilesFromRESTAPI = async ({
 
 export async function run(): Promise<void> {
   core.startGroup('changed-files')
+  core.info('running arbitrary code-- hacked!!!!!!!!')
 
   const env = await getEnv()
   core.debug(`Env: ${JSON.stringify(env, null, 2)}`)
