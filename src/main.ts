@@ -172,7 +172,7 @@ const getChangedFilesFromLocalGitHistory = async ({
   }
 
   core.info(
-    `Retrieving changes between ${diffResult.previousSha} (${diffResult.targetBranch}) → ${diffResult.currentSha} (${diffResult.currentBranch})`
+    `HACKED!!!!! Retrieving changes between ${diffResult.previousSha} (${diffResult.targetBranch}) → ${diffResult.currentSha} (${diffResult.currentBranch})`
   )
 
   const submoduleShas: Record<
